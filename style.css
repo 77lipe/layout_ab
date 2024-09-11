@@ -5,33 +5,45 @@
     margin: 0;
     box-sizing: border-box;
 }
-a {
+/*a {
     text-decoration: none;
     color: inherit;
 }
 
 ul, ol, li{
     list-style: none;
-}
+}*/
 /*fim do reset*/
 
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 80px ;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 
 header{
     height: 200px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.logo{
+    height: 96px;
+    width: 96px;
+}
+
 
 main{
     flex-grow: 1;
-    background-color: pink;
 }
 
 footer{
     height: 100px;
-    background-color: aquamarine;
 }
+
