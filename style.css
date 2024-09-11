@@ -5,14 +5,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*a {
+a {
     text-decoration: none;
     color: inherit;
 }
 
 ul, ol, li{
     list-style: none;
-}*/
+}
 /*fim do reset*/
 
 body{
@@ -41,6 +41,15 @@ header{
 
 main{
     flex-grow: 1;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    background-color: plum;
+}
+.destaque{
+    width: 50%;
+    background-color: gray;
 }
 
 footer{
