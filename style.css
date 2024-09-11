@@ -20,7 +20,10 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px ;
+    background-color: #DCDCDC;
 }
+
+
 .menu ul{
     display: flex;
     gap: 32px;
@@ -32,12 +35,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #000080;
 }
 .logo{
     height: 96px;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
     width: 96px;
+    background-image: url(./img.png/J_\(1\).png);
+    background-size: contain;
+    background-repeat:no-repeat;
 }
+
 
 
 main{
@@ -54,6 +62,7 @@ main{
 
 .conteudo h1{
     font-size: 96px;
+    color: 	#000080;
 }
 .conteudo p{
     width: 80%;
@@ -63,26 +72,46 @@ main{
 .acao button{
     height: 100px;
     width: 400px;
-    background-color: black;
+    background-color: 	#000080;
     color: white;
     font-size: 32px;
 }
 .social{
     width: 80%;
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 .social div{
     height: 96px;
-    width: 96px;
-    background-color: lightgray;    
+    width: 96px;  
     border-radius: 50%;
+    /*background-image: url(./img.png/178957-800-auto.webp);
+    background-size: contain;
+    background-repeat:no-repeat;*/
+}
+.joma1{
+    background-image: url(./img.png/178957-800-auto.webp);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.joma2{
+    background-image: url(./img.png/chuteira-joma-top-flex-rebound-6634030baecaf.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.joma3{
+    background-image: url(./img.png/IMG_7601.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.destaque{
+    width:  50%;
+    height: 80%;
+    background-image: url(./img.png/_vyr_422163_TORW2402IN-Panske-salove-kopacky-Joma-Top-Flex-Rebound-2402-IN-bile2-Eshop-fmko-cz.webp);
+    background-size: contain;
+    background-repeat:no-repeat;
 }
 
-.destaque{
-    width: 50%;
-    background-color: lightgray;
-}
 
 footer{
     height: 100px;
