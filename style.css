@@ -46,7 +46,6 @@ main{
 
 .conteudo{
     width: 50%;
-    background-color: plum;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
