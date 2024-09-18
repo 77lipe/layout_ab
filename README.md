@@ -1,4 +1,4 @@
-# Landing page - Galeria do Ney
+# Landing page - Site da Joma
 
 ![](./Captura%20de%20Tela%202024-09-11%20%C3%A0s%2017.19.36.png)
 
